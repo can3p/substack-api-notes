@@ -25,7 +25,7 @@ Where `content` fields are arrays containing a list of nodes in the element. Top
 {
     "type": "heading",
     "attrs": {
-    "level": <1-6>
+        "level": <1-6>
     },
     "content": [ <inline text nodes> ]
 }
@@ -49,21 +49,21 @@ Where `content` fields are arrays containing a list of nodes in the element. Top
     {
         "type": "image2",
         "attrs": {
-        "src": "<image url>",
-        "srcNoWatermark": null,
-        "fullscreen": null,
-        "imageSize": null,
-        "height": 360,
-        "width": 413,
-        "resizeWidth": null,
-        "bytes": 28315,
-        "alt": null,
-        "title": null,
-        "type": "image/png",
-        "href": null,
-        "belowTheFold": false,
-        "topImage": false,
-        "internalRedirect": null
+            "src": "<image url>",
+            "srcNoWatermark": null,
+            "fullscreen": null,
+            "imageSize": null,
+            "height": 360,
+            "width": 413,
+            "resizeWidth": null,
+            "bytes": 28315,
+            "alt": null,
+            "title": null,
+            "type": "image/png",
+            "href": null,
+            "belowTheFold": false,
+            "topImage": false,
+            "internalRedirect": null
         }
     },
     {
@@ -96,8 +96,8 @@ Where `content` fields are arrays containing a list of nodes in the element. Top
         "caption": "",
         "alt": "",
         "staticGalleryImage": {
-        "type": "image/png",
-        "src": "<url>"
+            "type": "image/png",
+            "src": "<url>"
         }
     },
     "isEditorNode": true,
@@ -112,7 +112,7 @@ Where `content` fields are arrays containing a list of nodes in the element. Top
 {
     "type": "footnote",
     "attrs": {
-    "number": 1
+        "number": 1
     },
     "content": [ <text nodes> ]
 }
@@ -132,9 +132,9 @@ While specific block elements like captioned image have specific requirements fo
 {
     "type": "text",
     "marks": [
-    {
-        "type": "strong"
-    }
+        {
+            "type": "strong"
+        }
     ],
     "text": "ntr"
 },
@@ -145,7 +145,7 @@ While specific block elements like captioned image have specific requirements fo
 {
     "type": "footnoteAnchor",
     "attrs": {
-    "number": 1
+        "number": 1
     }
 }
 ```
