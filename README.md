@@ -137,7 +137,7 @@ Example response:
 }
 ```
 
-The `id` field from the response is needed to update the draft. `draft_body` JSON will be described below
+The `id` field from the response is needed to update the draft. `draft_body` JSON conforms to [Substack document format](doc_format.md)
 
 #### Update a draft
 
